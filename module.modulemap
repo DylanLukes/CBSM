@@ -1,0 +1,5 @@
+module CBSM [system] {
+  header "/usr/include/bsm/libbsm.h"
+  link "bsm"
+  export *
+}
